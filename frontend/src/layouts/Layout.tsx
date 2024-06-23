@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MainTitle from "@/components/MainTitle";
 
@@ -13,7 +14,7 @@ const Layout = ({children}: Props) => {
             <div className="container mx-auto flex-1 py-10">
                 {children}
             </div>
-            
+            <Footer />
         </div>
     )
 }
